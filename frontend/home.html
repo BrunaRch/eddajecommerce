@@ -6,7 +6,7 @@
     <title>Eddaj E-commerce</title>
 </head>
 <body>
-{% comment %}CABEÇALHO {% endcomment %}
+<!-- CABEÇALHO -->
 <header>
     <div class="logo">
         <img src="{% static 'images/logo.png' %}" alt="Logo da Eddaj E-commerce">
@@ -19,15 +19,32 @@
 </header>
 
 <nav>
-{% comment %} MENU DE CATEGORIAS - colares, pulseiras, aneis, pingentes, brincos, braceletes{% endcomment %}
+<!--MENU DE CATEGORIAS - colares, pulseiras, aneis, pingentes, brincos, braceletes-->
+    <div class="menu-categorias">
+        <ul>
+            <li><a href="#">Colares</a></li>
+            <li><a href="#">Pulseiras</a></li>
+            <li><a href="#">Anéis</a></li>
+            <li><a href="#">Pingentes</a></li>
+            <li><a href="#">Brincos</a></li>
+            <li><a href="#">Braceletes</a></li>
+        </ul>
+</nav>
+
+<nav>
+    <div class="pesquisa">
+        <form action="search.html" method="get">
+            <input type="text" name="query" placeholder="Pesquisar produtos...">
+            <button type="submit">Pesquisar</button>
+        </form>
 </nav>
 
 <main >
-{% comment %} VITRINE {% endcomment %}
+<!--VITRINE-->
 </main> 
 
 <footer>
-    {% comment %} SOBRE NOS, ATENDIMENTO/CONTATO {% endcomment %}
+    <!-- SOBRE NOS, ATENDIMENTO/CONTATO -->
     <div class="copyright">
       <p>&copy; 2026 EddajECommerce. Todos os direitos reservados.</p>
     </div>
