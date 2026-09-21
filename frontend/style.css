@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Birthstone&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
 *{
     margin: 0;
     padding: 0;
@@ -8,32 +11,59 @@
     display: flex;
     justify-content: flex-end;
     position: relative;
-    top: 18px;
+    bottom: 8px;
     right: 20px;
+}
+
+.carrinho a {
+    text-decoration: none;
+    color: rgb(143, 58, 58);
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 14px;
 }
 
 .menucategorias ul{
     display: flex;
     align-items: center;
     padding-right: 180px;
+    position: relative;
+    bottom: 26px;
     list-style: none;
     justify-content: flex-end;
 }
 
 .menucategorias ul li {
-    margin-left: 15px;
+    margin-left: 8px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 14px;
+}
+
+.menucategorias ul li a {
+    text-decoration: none;
+    color: black;
 }
 
 .logo {
-    justify-content: flex-start;
-    padding-top: 20px;
     position: relative;
     left: 20px;
     top: 18px;
 }
 
+.logo h2 {
+    font-family: "Birthstone", cursive;
+    font-weight: 500;
+    font-style: normal;
+    position: relative;
+    left: 71px;
+    font-size: 45px;
+}
 .apresentacao{
     padding: 199px;
+    background-color: rgba(231, 231, 231, 0.815);
 }
 .pesquisa {
     padding: 50px;
@@ -46,11 +76,24 @@
 }
 
 .produtos {
+    align-items: center;
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(3, 1fr);
+    gap: 200px;
 }
 
 .cards {
-    padding: 20px;
+    border-radius: 10px;
+    position: relative;
+    left: 180px;
+    bottom: 180px;
+    top: 120px;
 }
 
+.copyright {
+    text-align: center;
+    padding: 20px;
+    position: relative;
+    top : 300px;
+    background-color: rgba(231, 231, 231, 0.377);
+}
