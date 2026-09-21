@@ -37,7 +37,20 @@
 }
 .pesquisa {
     padding: 50px;
-    justify-content: flex-end;
 }
 
+.pesquisa form {
+    position: relative;
+    left: 1365px;    
+    bottom: 250px;
+}
+
+.produtos {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.cards {
+    padding: 20px;
+}
 
