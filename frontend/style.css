@@ -90,6 +90,13 @@
     top: 120px;
 }
 
+.contato {
+    text-align: center;
+    padding: 20px;
+    position: relative;
+    top : 300px;
+    background-color: rgba(231, 231, 231, 0.377);
+}
 .copyright {
     text-align: center;
     padding: 20px;
